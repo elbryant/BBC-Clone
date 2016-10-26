@@ -1,0 +1,394 @@
+#topbar {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#logo {
+    margin: 8px 8px 0 15px;
+    width: 80px;
+    float: left;
+}
+
+#body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.topbar-section {
+    float: left;
+    border-left: 1px #cccccc solid;
+    height: 100%;
+}
+
+#signin-image {
+    float:left;
+}
+
+.topbar-menu {
+    font-weight: bold;
+    font-size: 80%;
+    padding: 13px 13px 0 13px;
+    height: 26px;
+}
+
+#more-arrow {
+    margin-left: 50px;
+    margin-top: -6px;
+    height: 100%;
+    float:right;
+}
+
+#searchbox {
+    background-color: #e4e4e4;
+    border: none;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 5px;
+    margin: 8px 0 2px 8px;
+    float:left;
+    width: 165px;
+}
+
+#magnifying-glass {
+    float:left;
+    margin: 8px 0 8px 0;
+    height: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu-bar-container {
+    background-color: #bb1919;
+    width: 100%;
+    height: 58px;
+    border-top: 1px solid #cccccc;
+}
+
+#menubar {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 39px;
+    font-weight: normal;
+    padding: 8px 0 0 12px;
+    letter-spacing: 2px;
+}
+
+#menu-bar-2-container {
+    background-color: #a91717;
+    width: 100%;  
+}
+
+#menu-bar-2 {
+    width: 1000px;
+    margin: 0 auto;
+    height: 33px;
+}
+
+#menu-bar-2 a {
+    color:white;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 0 10px;
+    border-right: 1px solid #bb4545;
+    font-size: 88%;
+    position: relative;
+    top: 3px;
+}
+
+#menu-bar-2 a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+.no-border {
+    border: none !important;
+}
+
+#down-arrow {
+    height: 19px;
+    position: relative;
+    top: 6px;
+    left: -10px;
+}
+
+#page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.news-category {
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 20px;
+    border-bottom: 3px solid #bb1919;
+    width: 103px;
+}
+
+h3 a {
+    color: #000000;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #1167a8;
+}
+
+#article-summary {
+    color: #5a5a5a;
+    width: 250px;
+    float: left;
+    position:relative;
+    top: -20px;
+}
+
+#article-summary img {
+    height: 16px;
+    position: relative;
+    top: 4px;
+}
+
+#topic-link {
+    text-decoration: none;
+    color: #a61b1b;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#article-summary a:hover {
+    color: #1167a8;
+}
+
+#date {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+#article-container {
+    position: relative;
+    top: -20px;
+    float: left;
+    width: 700px;
+    height: 315px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#main-article-image {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+#article-hr {
+    border-top: 1px solid #bb1919;
+    width: 40px;
+}
+
+.article-link {
+    color: 000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.three-article-container {
+    position: relative;
+    top: -20px;
+    left: -5px;
+    float: left;
+    width: 700px;
+    height: 420px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.vertical-story {
+    position: relative;
+    padding-right: 5px;
+    padding-left: 13px;
+    width: 230px;
+    height: 390px;
+    margin-top: 15px;
+    border-right: 1px solid #dbdbdb;
+    float: left;
+}
+
+h4 a {
+    color: #222222;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+h4 a:hover {
+    color: #1167a8;
+}
+
+.vertical-story-summary {
+    color: #5a5a5a;
+    width: 225px;
+    float: left;
+    position:relative;
+    top: -20px;
+    font-size: 14px;
+}
+
+.square-story {
+    height: 143px;
+    width: 148px;
+    float: left;
+    position:relative;
+    top: -10px;
+}
+
+.three-story-text {
+    padding-left: 12px;
+    position: relative;
+}
+
+h5 a {
+    color: #222222;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+}
+
+h5 a:hover {
+    color: #1167a8;
+}
+
+.vertical-clock {
+    position: relative;
+    top: -8px;
+    left: 18px;
+}
+
+.three-story-topic-link {
+    text-decoration: none;
+    color: #a61b1b;
+    padding: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.three-story-text {
+    width: 140px;
+    height: 150px;
+}
+
+.three-story-date {
+    font-size: 12px;
+    padding-left: 20px;
+    border-right: 1px solid #cccccc;
+    position: relative;
+    top: -12px;
+}
+
+#right-ad {
+    width: 285px;
+}
+
+#right-sidebar {
+    float: right;
+    height: 300px;
+}
+
+#watch-listen-container {
+    border-left: 1px solid #dbdbdb;
+    width: 310px;
+    height: 800px;
+    position: relative;
+    top: -175px;
+    left: 7px;
+}
+
+#watch-listen {
+    color: #404040;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    padding-bottom: 35px;
+    padding-left: 10px;
+}
+
+.watch-listen-image {
+    padding-left: 10px;
+    position: relative;
+    top: -30px;
+}
+
+.watch-listen-text {
+    float: right;
+    width: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #222222;
+    padding-left: 8px;
+    margin-top: -91px;
+}
+
+.watch-listen-date-container {
+    width: 150px;
+    position: relative;
+    left: 150px;
+    top: -30px;
+}
+
+.watch-listen-clock {
+    position: relative;
+    top: -52px;
+    left: -22px;
+}
+
+.watch-listen-date {
+    color: #5a5a5a;
+    font-size: 12px;
+    position: relative;
+    top: -56px;
+    left: -20px;
+    border-right: 1px solid #dbdbdb;
+    padding-right: 8px;
+}
+
+.watch-listen-topic-link {
+    position: relative;
+    top: -50px;
+    left: -23px;
+    font-size: 12px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #a61b1b;
+}
+
+.watch-listen-story {
+    height: 100px;
+}
+
+#share-with-BBC a {
+    position: relative;
+    left: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#share-with-BBC a:hover {
+    color: #1167a8;
+}
+
+#red-arrow {
+    float:right;
+    position: relative;
+    top: -45px;
+    left: -38px;
+}
